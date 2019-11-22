@@ -1,0 +1,51 @@
+# Project information
+site_name: 'jason site'
+site_description: 'An app about static stite generation'
+site_author: 'Jason Peters'
+site_url: 'https://github.com/ptasdevz/pwadocs'
+
+# Repository
+repo_name: 'ptasdevz/pwadocs'
+repo_url: 'https://github.com/ptasdevz/pwadocs'
+
+# Copyright
+copyright: 'Copyright &copy; Jason Peters'
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  custom_dir: 'theme'
+  palette:
+    primary: 'green'
+    accent: 'orange'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+
+# Customization
+extra:
+  manifest: 'manifest.json'
+  social:
+    - type: 'github'
+      link: 'https://github.com/squidfunk'
+    - type: 'twitter'
+      link: 'https://twitter.com/squidfunk'
+    - type: 'linkedin'
+      link: 'https://linkedin.com/in/squidfunk'
+
+# Google Analytics
+google_analytics:
+  - 'UA-XXXXXXXX-X'
+  - 'auto'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+
+#PWA Config
+use_directory_urls: false
